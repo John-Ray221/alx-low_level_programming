@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /* more headers goes there */
-
+#include <stdio.h>
 /**
- * main - assigns a random number to int n everytime
- * it executes, and prints it
- * Return: Always 0 (Success)
+ * main - check if n is equal, less or greater than 0
+ * Return: always return 0 when executed successful
  */
 
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -18,11 +17,11 @@ int main(void)
 	/* your code goes there */
 	if (n < 0)
 	{
-		printf("%d is negative\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n > 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
